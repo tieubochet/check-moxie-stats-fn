@@ -179,19 +179,22 @@ const frameHandler = frames(async (ctx) => {
   const shareUrl = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://check-moxie-stats-v1.vercel.app/frames${
     fid ? `?userfid=${fid}` : ""
   }`;
-
+  const learnurl = 'https://paragraph.xyz/@compez.eth/how-to-improve-your-farcaster-rank-on-airstack';
   const buttons = [];
 
   if (!userData) {
     buttons.push(
       <Button action="post" target={{ href: `${appURL()}?userfid=${fid}` }}>
-        Check your
+        Check Moxie Stats
+      </Button>,
+      <Button action="link" target={learnurl}>
+        Learn more
       </Button>
     );
   } else {
     buttons.push(
       <Button action="post" target={{ href: `${appURL()}?userfid=${fid}` }}>
-        Check your
+        Check Moxie Stats
       </Button>,
       <Button action="link" target={shareUrl}>
         Share
