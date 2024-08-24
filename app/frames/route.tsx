@@ -135,7 +135,7 @@ const frameHandler = frames(async (ctx) => {
 
   const SplashScreen = () => (
     <img
-      src="https://i.ibb.co/4gyQNMq/moxie-reward.png"
+      src="https://i.imgur.com/3Vtin4P.png"
       tw="w-full h-full object-cover"
     />
   );
