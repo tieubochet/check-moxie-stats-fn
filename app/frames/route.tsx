@@ -164,7 +164,7 @@ const frameHandler = frames(async (ctx) => {
         <div tw="flex text-[42px] justify-end w-2/4 absolute bottom-15 left-118 text-[#ffeb5b]">{formatNumber(parseFloat(moxieData?.lifetime.allEarningsAmount || "0"))}</div>
         <div tw="flex text-[39px] w-2/4 absolute bottom-2 left-118 text-[#ffeb5b]">${formatNumber(parseFloat(moxieData?.today.allEarningsAmount || "0") * moxiePriceUSD)}</div>
         <div tw="flex text-[39px] justify-center w-2/4 absolute bottom-2 left-118 text-[#ffeb5b]">${formatNumber(parseFloat(moxieData?.weekly.allEarningsAmount || "0") * moxiePriceUSD)}</div>
-        <div tw="flex text-[39px] justify-end w-2/4 absolute bottom-2 left-118 text-[#ffeb5b]">${formatNumber(parseFloat(moxieData?.lifetime.allEarningsAmount || "0") * moxiePriceUSD)}</div>
+        <div tw="flex text-[39px] justify-end w-2/4 absolute bottom-2 left-118 text-[#ffeb5b] font-['Baloo 2']">${formatNumber(parseFloat(moxieData?.lifetime.allEarningsAmount || "0") * moxiePriceUSD)}</div>
         <div tw="flex text-[33px] justify-start w-full absolute bottom-1 left-44 text-[#ffeb5b] font-baloo">${moxiePriceUSD}</div>
     </div>
     );
