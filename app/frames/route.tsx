@@ -176,7 +176,7 @@ const frameHandler = frames(async (ctx) => {
   );
 
   // Change the url here
-  const shareUrl = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://check-moxie-rewards-v1.vercel.app/frames${
+  const shareUrl = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://check-moxie-stats-v1.vercel.app/frames${
     fid ? `?userfid=${fid}` : ""
   }`;
 
