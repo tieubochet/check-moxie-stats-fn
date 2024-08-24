@@ -1,7 +1,5 @@
 import type { Config } from "tailwindcss";
 
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 const config = {
   darkMode: ["class"],
   content: [
@@ -22,11 +20,6 @@ const config = {
   ],
   prefix: "",
   theme: {
-    extend: {
-      fontFamily: {
-        baloo: ['"Baloo 2"', ...defaultTheme.fontFamily.sans]
-      }
-    },
     container: {
       center: true,
       padding: "2rem",

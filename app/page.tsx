@@ -13,7 +13,6 @@ export async function generateMetadata({
     framesUrl.searchParams.set("action", "fetch");
     framesUrl.searchParams.set("title", "Moxie Stats");
     framesUrl.searchParams.set("description","Use this frame to check your Moxie Rewards");
-    framesUrl.searchParams.set("stylesheet","https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
   }
 
   console.log("Fetching metadata from:", framesUrl.toString());
